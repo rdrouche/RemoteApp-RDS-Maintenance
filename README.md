@@ -34,3 +34,6 @@ Before the configuration change, the application information is stored in the re
 2. Choose the application after maintenance and click on the button Mettre en service
 
 ## Capture / Screenshot
+<img src="https://static.rdr-it.fr/img/remoteappmaintenance-20200221-01.png" style="width:300px;"/><img src="https://static.rdr-it.fr/img/remoteappmaintenance-20200221-02.png" style="width:300px;"/>
+
+<img src="https://static.rdr-it.fr/img/remoteappmaintenance-20200221-03.png" style="width:300px;"/><img src="https://static.rdr-it.fr/img/remoteappmaintenance-20200221-04.png" style="width:300px;"/>
