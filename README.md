@@ -15,7 +15,7 @@ The script changes the execution path to a dummy file, which prevents any execut
 At launch the script creates a backup of the RemoteApp configuration in C:\ProgramData
 Before the configuration change, the application information is stored in the registry, this information is used for exiting maintenance mode.
 
-## Utilisation
+## Utilisation / Use
 
 ### French
 #### Mise en maintenance
@@ -24,3 +24,13 @@ Before the configuration change, the application information is stored in the re
 #### Sortie de la maintenance
 1. Depuis le serveur broker, executer le fichier RemoteApp-RDS-Maintenance.ps1 depuis une invite de commande PowerShell ou ISE en Administrateur
 2. Choisir l'application à sortie de la maintenance et cliquer sur le bouton Mettre en service
+
+### English
+#### Maintenance
+1. From the broker server, execute the RemoteApp-RDS-Maintenance.ps1 file from a PowerShell or ISE command prompt in Administrator
+2. Choose the application to be maintained and click on the button Mettre en maintenance
+#### Exit Maintenance
+1. From the broker server, execute the RemoteApp-RDS-Maintenance.ps1 file from a PowerShell or ISE command prompt in Administrator
+2. Choose the application after maintenance and click on the button Mettre en service
+
+## Capture / Screenshot
