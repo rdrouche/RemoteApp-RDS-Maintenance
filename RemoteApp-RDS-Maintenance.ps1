@@ -6,13 +6,10 @@ function Set-RemoteAppMaintenance{
 
     Write-Debug "Enter in function : Set-RemoteAppMaintenance for App : $appname"
 
-    #Write-Debug "Get RemotesApp"
-    #$RemotesApp = Get-RDRemoteApp | Where {$_.DisplayName -match "$appname"}
     $RemotesApp = Get-RDRemoteApp -DisplayName $appname
-    #$RemotesApp | Export-Csv -Path ".\tototo.csv"
-    #Write-Debug "$RemotesApp"
+
     Foreach($RemoteApp in $RemotesApp){
-        #Write-Debug $RemoteApp | Format-List
+        # New registry entry for RemoteApp to Set Maintenance
         Push-Location
         Set-Location HKLM:\Software\RemoteAppsMaintenance
         New-Item -Path "HKLM:\Software\RemoteAppsMaintenance\$($RemoteApp.DisplayName)"
